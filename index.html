@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Gujrathi - Data Products Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Architectural Blueprint Background -->
+    <div class="blueprint-bg">
+        <div class="blueprint-lines"></div>
+    </div>
+    
+    <!-- Section 1: THE HOOK -->
+    <section id="hook" class="hook-section">
+        <div class="animated-grid"></div>
+        <header class="main-header">
+            <nav class="header-nav">
+                <div class="nav-links">
+                    <a href="#hook" class="nav-link" onclick="scrollToSection('hook')">Home</a>
+                    <a href="#projects" class="nav-link" onclick="scrollToSection('projects')">Projects</a>
+                    <a href="#approach" class="nav-link" onclick="scrollToSection('approach')">About</a>
+                    <a href="#toolkit" class="nav-link" onclick="scrollToSection('toolkit')">Skills</a>
+                    <a href="#contact" class="nav-link" onclick="scrollToSection('contact')">Contact</a>
+                </div>
+                <div class="header-right">
+                    <a href="https://drive.google.com/file/d/1u_Dr0JI0TVFe0Gd6LNm7hLsl8_AO35Mv/view" target="_blank" class="resume-link">
+                        <span>Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/keshav-gujrathi" target="_blank" class="icon-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/keshavgujrathi" target="_blank" class="icon-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="hero-content">
+            <div class="typewriter-container">
+                <h1 class="hero-name"></h1>
+                <h2 class="hero-tagline"></h2>
+                <div class="rotating-subtitle">
+                    <span class="rotating-word"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Interest Boxes -->
+        <div class="interests-container">
+            <div class="interest-box">
+                <div class="interest-icon">
+                    <i class="fas fa-brain" style="font-size: 2rem;"></i>
+                </div>
+                <h3>Machine Learning</h3>
+                <p>Transforming raw data into intelligent systems that predict, classify, and optimize business outcomes with precision.</p>
+            </div>
+            <div class="interest-box">
+                <div class="interest-icon">
+                    <i class="fas fa-database" style="font-size: 2rem;"></i>
+                </div>
+                <h3>Data Engineering</h3>
+                <p>Building robust pipelines and architectures that handle massive datasets, ensuring scalability and reliability.</p>
+            </div>
+            <div class="interest-box">
+                <div class="interest-icon">
+                    <i class="fas fa-rocket" style="font-size: 2rem;"></i>
+                </div>
+                <h3>Product Development</h3>
+                <p>Creating user-centric solutions that bridge technical complexity with intuitive experiences and measurable impact.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Section 2: PROJECTS -->
+    <section id="projects" class="case-studies-section">
+        <div class="container">
+            <h2 class="section-title">// PROJECTS</h2>
+            
+            <div class="case-studies-grid">
+                <!-- Project 001: SafeStreets -->
+                <div class="case-study">
+                    <a href="https://github.com/keshavgujrathi/safestreets" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="case-content">
+                        <div class="project-header">
+                            <h3 class="case-number">001</h3>
+                            <h4 class="case-title">SafeStreets</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><strong>50,000+</strong> road segments analyzed</span>
+                                <span class="metric"><strong>Real-time</strong> safety scoring</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">Production-ready road safety intelligence system with configurable scoring algorithms, interactive heatmaps, and CSV export workflows for urban planning teams.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Impact:</span>
+                                    <span class="highlight-text">Enables data-driven urban safety decisions</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Scale:</span>
+                                    <span class="highlight-text">Processes city-wide road networks</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Streamlit</span>
+                                <span class="tech-pill">Folium</span>
+                                <span class="tech-pill">OSMnx</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 002: Emotion Recognition -->
+                <div class="case-study">
+                    <a href="https://github.com/keshavgujrathi/emotion-recognition" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="case-content">
+                        <div class="project-header">
+                            <h3 class="case-number">002</h3>
+                            <h4 class="case-title">Emotion Recognition</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><strong>85%+</strong> validation accuracy</span>
+                                <span class="metric"><strong>Real-time</strong> inference</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">Deep learning facial emotion classifier with live webcam integration. Complete CNN pipeline from FER-2013 training to OpenCV deployment for real-world applications.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Architecture:</span>
+                                    <span class="highlight-text">Custom CNN with data augmentation</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Deployment:</span>
+                                    <span class="highlight-text">Real-time webcam inference pipeline</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-pill">TensorFlow</span>
+                                <span class="tech-pill">Keras</span>
+                                <span class="tech-pill">OpenCV</span>
+                                <span class="tech-pill">NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 003: Airline Analysis -->
+                <div class="case-study">
+                    <a href="https://github.com/keshavgujrathi/airline-analysis" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <div class="case-content">
+                        <div class="project-header">
+                            <h3 class="case-number">003</h3>
+                            <h4 class="case-title">Airline Passenger Analysis</h4>
+                            <div class="project-metrics">
+                                <span class="metric"><strong>Time-series</strong> forecasting</span>
+                                <span class="metric"><strong>Trend/seasonality</strong> analysis</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">Comprehensive exploratory data analysis revealing passenger demand patterns with statistical baselines and predictive visualizations for airline capacity planning.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Method:</span>
+                                    <span class="highlight-text">Statistical decomposition & forecasting</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <span class="highlight-label">Output:</span>
+                                    <span class="highlight-text">Actionable capacity planning insights</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-pill">Pandas</span>
+                                <span class="tech-pill">Matplotlib</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Jupyter</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: THE APPROACH -->
+    <section id="approach" class="approach-section">
+        <div class="container">
+            <h2 class="section-title">// THE APPROACH</h2>
+            <div class="approach-grid">
+                <div class="philosophy">
+                    <p><strong>Data-driven products that move the needle!</strong> Every line of code, every model, every dashboard should solve real problems and deliver measurable impact.</p>
+                    <p>My approach combines <strong>technical precision</strong> with <strong>creative problem-solving</strong>, always keeping the end user at the center of the solution.</p>
+                </div>
+                <div class="proof-in-action">
+                    <h3>Proof in Action</h3>
+                    <div class="timeline">
+                        <div class="timeline-item" data-year="2024">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4><i class="fab fa-firefox-browser"></i> Mozilla Firefox Club</h4>
+                                <p class="role-title">Co-Secretary (2024-Present)</p>
+                                <div class="achievement-points">
+                                    <div class="achievement-item">
+                                        <span class="achievement-number">InnovationX</span>
+                                        <span class="achievement-text">250+ participants engaged through InnovationX hackathon with comprehensive logistics, sponsorship coordination, and technical judging panels</span>
+                                    </div>
+                                    <div class="achievement-item">
+                                        <span class="achievement-number">Leadership</span>
+                                        <span class="achievement-text">Spearheaded open-source community growth initiatives, programming calendar management, and contributor onboarding workflows for 150+ member team</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3.5: CREDENTIALS -->
+    <section id="credentials" class="credentials-section">
+        <div class="container">
+            <h2 class="section-title">// CREDENTIALS</h2>
+            <div class="credentials-grid">
+                <div class="education-card">
+                    <div class="card-header">
+                        <div class="institution-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="education-details">
+                        <h4><strong>Vellore Institute of Technology (VIT)</strong></h4>
+                        <p class="degree">B.Tech., Computer Science & Engineering (Data Science)</p>
+                        <p class="timeline">08/2023 - Present</p>
+                    </div>
+                </div>
+                
+                <div class="certifications-card">
+                    <div class="card-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications & Learning</h3>
+                    </div>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <div class="cert-logo">
+                                <i class="fab fa-google" style="color: #4285F4;"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4><strong>Google Cloud ML APIs</strong></h4>
+                                <p>Google Cloud Skills Boost (Certified)</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-logo">
+                                <i class="fas fa-graduation-cap" style="color: #A51C30;"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4><strong>Machine Learning</strong></h4>
+                                <p>HarvardX on edX (Audited)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coursework-card">
+                    <div class="card-header">
+                        <i class="fas fa-book-open"></i>
+                        <h3>Relevant Coursework</h3>
+                    </div>
+                    <div class="coursework-tags">
+                        <div class="coursework-row">
+                            <span class="course-pill"><i class="fas fa-code"></i> Data Structures & Algorithms</span>
+                            <span class="course-pill"><i class="fas fa-brain"></i> Machine Learning</span>
+                        </div>
+                        <div class="coursework-row">
+                            <span class="course-pill"><i class="fas fa-database"></i> Database Management</span>
+                            <span class="course-pill"><i class="fas fa-server"></i> Operating Systems</span>
+                        </div>
+                        <div class="coursework-row">
+                            <span class="course-pill"><i class="fas fa-network-wired"></i> Computer Networks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: THE TOOLKIT -->
+    <section id="toolkit" class="toolkit-section">
+        <div class="container">
+            <h2 class="section-title">// THE TOOLKIT</h2>
+            <div class="toolkit-categories">
+                <div class="category-card primary-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain category-icon"></i>
+                        <h3>ML & AI</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-tooltip="CNNs, RNNs, transfer learning experience"><i class="fab fa-python"></i> TensorFlow</span>
+                        <span class="skill-pill" data-tooltip="Model architecture and training"><i class="fas fa-brain"></i> Keras</span>
+                        <span class="skill-pill" data-tooltip="Classical ML algorithms and pipelines"><i class="fas fa-chart-line"></i> scikit-learn</span>
+                        <span class="skill-pill" data-tooltip="Computer vision and image processing"><i class="fas fa-eye"></i> OpenCV</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <i class="fas fa-database category-icon"></i>
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-tooltip="Data manipulation and analysis"><i class="fas fa-table"></i> Pandas</span>
+                        <span class="skill-pill" data-tooltip="Interactive web applications"><i class="fas fa-chart-bar"></i> Streamlit</span>
+                        <span class="skill-pill" data-tooltip="Interactive mapping and visualization"><i class="fas fa-map"></i> Folium</span>
+                        <span class="skill-pill" data-tooltip="Data visualization and plotting"><i class="fas fa-chart-area"></i> Matplotlib</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <i class="fas fa-cloud category-icon"></i>
+                        <h3>Cloud & Deployment</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-tooltip="Google Cloud Platform services"><i class="fab fa-google"></i> Google Cloud</span>
+                        <span class="skill-pill" data-tooltip="Machine Learning APIs and services"><i class="fas fa-robot"></i> Cloud ML APIs</span>
+                        <span class="skill-pill" data-tooltip="Version control and collaboration"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                        <span class="skill-pill" data-tooltip="Jupyter notebook development"><i class="fas fa-file-code"></i> Jupyter</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-header">
+                        <i class="fas fa-code category-icon"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-tooltip="Primary programming language"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-pill" data-tooltip="Object-oriented programming"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-pill" data-tooltip="Database queries and management"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-pill" data-tooltip="Numerical computing library"><i class="fas fa-calculator"></i> NumPy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: START A CONVERSATION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="contact-headline">LET'S SOLVE A PROBLEM.</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="social-contact">
+                        <a href="mailto:gujrathikeshav9@gmail.com?subject=Let's%20collaborate&body=Hi%20Keshav,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%0D%0A%0D%0ABest%20regards," class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://linkedin.com/in/keshav-gujrathi" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/keshavgujrathi" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://leetcode.com/keshavgujrathi" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Keshav Gujrathi. All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chatbot-icon" class="chatbot-icon">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-title">
+                    <span class="chatbot-avatar">👾</span>
+                    <span>Keshav's Digital Twin</span>
+                </div>
+                <div class="chatbot-controls">
+                    <button id="chatbot-close" class="chatbot-close">×</button>
+                </div>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="message bot-message">
+                    <span class="message-avatar">👾</span>
+                    <div class="message-content">
+                        <p>Hi! I can answer questions about Keshav's experience and projects.</p>
+                        <div class="quick-actions">
+                            <button class="quick-btn" data-question="safestreets">SafeStreets Project</button>
+                            <button class="quick-btn" data-question="experience">Leadership Experience</button>
+                            <button class="quick-btn" data-question="skills">Technical Skills</button>
+                            <button class="quick-btn" data-question="goals">Career Goals</button>
+                            <button class="quick-btn" data-question="contact">Contact Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input-field" placeholder="Ask me anything about Keshav..." />
+                <button id="chatbot-send" class="chatbot-send">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
