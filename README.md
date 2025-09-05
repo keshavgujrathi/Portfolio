@@ -2,7 +2,7 @@
 
 > A modern, professional portfolio showcasing data science projects, technical expertise, and leadership experience.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://keshav-portfolio.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](http://keshavgujrathi.vercel.app/))
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/keshavgujrathi/portfolio)
 
 ## 🎯 Overview
