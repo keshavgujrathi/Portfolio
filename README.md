@@ -3,7 +3,7 @@
 > A modern, professional portfolio showcasing data science projects, technical expertise, and leadership experience.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](http://keshavgujrathi.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/keshavgujrathi/portfolio)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/keshavgujrathi/Portfolio)
 
 ## 🎯 Overview
 
@@ -70,10 +70,10 @@ Direct communication channels with professional social links
 
 ```bash
 # Clone the repository
-git clone https://github.com/keshavgujrathi/portfolio.git
+git clone https://github.com/keshavgujrathi/Portfolio.git
 
 # Navigate to project directory
-cd portfolio
+cd Portfolio
 
 # Open in browser
 open index.html
