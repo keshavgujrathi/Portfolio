@@ -158,18 +158,21 @@ function initBlueprintBackground() {
 // Navigation functionality
 function initNavigation() {
     window.scrollToSection = function(sectionId) {
+        // Remove active class from all nav dots (only if they exist)
+        const navDots = document.querySelectorAll('.nav-dot');
+        if (navDots.length > 0) {
+            navDots.forEach(dot => dot.classList.remove('active'));
+        }
+        
+        // Scroll to section
         const section = document.getElementById(sectionId);
         if (section) {
-            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            section.scrollIntoView({ behavior: 'smooth' });
             
-            // Update active nav dot
-            document.querySelectorAll('.nav-dot').forEach((dot, index) => {
-                dot.classList.remove('active');
-            });
-            
+            // Add active class to corresponding nav dot (only if nav dots exist)
             const sectionIndex = ['hook', 'projects', 'approach', 'contact'].indexOf(sectionId);
-            if (sectionIndex >= 0) {
-                document.querySelectorAll('.nav-dot')[sectionIndex].classList.add('active');
+            if (sectionIndex >= 0 && navDots.length > sectionIndex) {
+                navDots[sectionIndex].classList.add('active');
             }
         }
     };
@@ -636,13 +639,13 @@ function initCaseStudyEffects() {
         
         study.addEventListener('mouseenter', () => {
             // Enhance visual effects on hover
-            if (visual.querySelector('.heatmap-dots')) {
-                const heatmap = visual.querySelector('.heatmap-dots');
-                heatmap.style.animationDuration = '1s';
+            const heatmapDots = visual ? visual.querySelector('.heatmap-dots') : null;
+            if (heatmapDots) {
+                heatmapDots.style.animationDuration = '1s';
             }
             
-            if (visual.querySelector('.face-box')) {
-                const faceBox = visual.querySelector('.face-box');
+            const faceBox = visual ? visual.querySelector('.face-box') : null;
+            if (faceBox) {
                 faceBox.style.animationDuration = '0.5s';
             }
             
@@ -655,13 +658,13 @@ function initCaseStudyEffects() {
         
         study.addEventListener('mouseleave', () => {
             // Reset animations
-            if (visual.querySelector('.heatmap-dots')) {
-                const heatmap = visual.querySelector('.heatmap-dots');
-                heatmap.style.animationDuration = '3s';
+            const heatmapDots = visual ? visual.querySelector('.heatmap-dots') : null;
+            if (heatmapDots) {
+                heatmapDots.style.animationDuration = '3s';
             }
             
-            if (visual.querySelector('.face-box')) {
-                const faceBox = visual.querySelector('.face-box');
+            const faceBox = visual ? visual.querySelector('.face-box') : null;
+            if (faceBox) {
                 faceBox.style.animationDuration = '2s';
             }
             
